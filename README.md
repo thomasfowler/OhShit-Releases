@@ -68,7 +68,11 @@ sizing — and the countdown can read seconds, meters, or both.
 game running, so you can position and style it before you're on track. It switches itself off
 after 15 minutes.
 
-**Updating** is just running the new installer — it upgrades in place. **Uninstalling** is
+**Updating**: the plugin checks this repository's releases feed once when SimHub starts
+(and on demand from its settings page) and offers new versions there — download, checksum
+verification and the installer run are all one click. It's a single anonymous web request;
+untick *Check for updates when SimHub starts* on the OhShit settings page for no network
+calls at all. Running a newer installer by hand upgrades in place too. **Uninstalling** is
 Apps & Features → OhShit; it removes the plugin and its overlay and leaves the rest of your
 SimHub alone.
 
