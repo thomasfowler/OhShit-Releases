@@ -19,6 +19,17 @@ should be keeping, or leaves the racing surface and slows, there is shit ahead. 
 every car ahead of you and shows a countdown — yellow → amber → red — of seconds (and meters)
 until you arrive at the mess.
 
+## Quickstart
+
+1. **[Download the latest installer](https://github.com/thomasfowler/OhShit-Releases/releases/latest)** — `OhShit-Setup-<version>.exe`.
+2. **Run it.** Windows SmartScreen will probably object — the installer isn't code-signed, so
+   Windows doesn't recognize the publisher. Click **More info → Run anyway**.
+3. **Click install.** It finds your SimHub, closes it if it's running, and installs the plugin
+   and overlay.
+4. **Fire up SimHub** — click **yes** when it asks about the new OhShit plugin.
+5. **Add the overlay**: Dash Studio → Overlays → **OhShit**, and place it on screen.
+6. **Done.** Go drive. When there's shit ahead, you'll know before the flags do.
+
 ## What it does
 
 - **Learns the track live.** Normal pace for every part of the circuit is learned from the
@@ -51,17 +62,10 @@ sizing — and the countdown can read seconds, meters, or both.
 - [iRacing](https://www.iracing.com/) — OhShit reads iRacing telemetry only and stays idle in
   other titles
 
-## Install
+## Good to know
 
-1. Download `OhShit-Setup-<version>.exe` from the
-   [latest release](https://github.com/thomasfowler/OhShit-Releases/releases/latest).
-2. Run it. The installer finds your SimHub, closes it if it's running, and installs both the
-   plugin and the overlay. *(The installer isn't code-signed yet, so SmartScreen will ask you
-   to confirm — click "More info" → "Run anyway".)*
-3. Start SimHub. When it asks about the new **OhShit** plugin, click **enable** (or turn it on
-   later under Settings → Plugins).
-4. Add the overlay: Dash Studio → Overlays → **OhShit**, and drop it where you want it
-   on screen.
+**Missed the enable prompt?** SimHub only asks about a new plugin once — turn OhShit on any
+time under Settings → Plugins.
 
 **Try it without driving:** open the OhShit page in SimHub's left menu and set
 **PREVIEW / SCREENSHOT MODE** to *Cycle* — the overlay runs through its warning levels with no
