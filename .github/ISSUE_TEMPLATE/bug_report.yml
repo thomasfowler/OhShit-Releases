@@ -1,0 +1,43 @@
+name: Bug report
+description: Something broken, misfiring, or suspiciously quiet
+labels: [bug]
+body:
+  - type: input
+    id: ohshit-version
+    attributes:
+      label: OhShit version
+      description: Shown on the OhShit settings page in SimHub (e.g. v0.9.2).
+    validations:
+      required: true
+  - type: input
+    id: simhub-version
+    attributes:
+      label: SimHub version
+      description: SimHub's title bar or Settings → About.
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: >
+        What you saw, and what you expected instead. If it happened on track, the context
+        helps — track, session type, roughly when.
+    validations:
+      required: true
+  - type: input
+    id: status
+    attributes:
+      label: Status chip
+      description: >
+        If the problem is "nothing happens": what does the Status chip on the OhShit settings
+        page say? (OK, NoGame, NotIRacing, ...)
+  - type: textarea
+    id: log
+    attributes:
+      label: SimHub log excerpt
+      description: >
+        Paste the [OhShit] lines from SimHub\Logs\SimHub.txt around the time it happened.
+        Every warning raised — and every reason detection stayed idle — is logged, so this is
+        usually the fastest route to a fix.
+      render: text
